@@ -1,0 +1,268 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #9ed0f0;
+  padding: 0px 15% 0px 15%;
+}
+
+/* Media queries para diferentes tamaños de pantalla */
+@media only screen and (max-width: 768px) {
+  body {
+    padding: 0%;
+  }
+}
+
+main {
+  background-color: white;
+  padding: 20px 10px 20px 10px;
+}
+
+.bg-element-nav-footer {
+  background-color: #8eafc4;
+}
+
+/*  header styles */
+header {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+header > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Nav styles */
+.nav-style {
+  width: 100%;
+  padding: 15px 0px 15px 0px;
+
+  list-style: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nav-style > li > a {
+  cursor: pointer;
+
+  background-color: white;
+  padding: 8px 15px 8px 15px;
+
+  border-radius: 5px;
+  border: 0px solid transparent;
+  border-bottom: 2px solid #3c78d8;
+
+  text-decoration: none;
+
+  transition: 0.2s;
+}
+
+.nav-style > li > a:hover {
+  background-color: #3c78d8;
+  border-bottom: 2px solid #6b9eec;
+
+  color: white;
+}
+.nav-style > li > a:is(:link, :active, :visited, :hover).active {
+  background-color: #3c78d8;
+  border-bottom: 2px solid #6b9eec;
+
+  color: white;
+}
+
+/* responsive navvbar */
+
+.nav-style > .icon {
+  display: none;
+}
+
+@media only screen and (max-width: 850px) {
+  .nav-style {
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    position: relative;
+  }
+
+  .nav-style > li .icon {
+    background-color: #3c78d8;
+    padding: 5px 15px;
+  }
+  .nav-style > li > .btn-style-nav {
+    cursor: pointer;
+
+    background-color: white;
+    padding: 8px 15px;
+    width: 200px;
+    border-radius: 5px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid #3c78d8;
+
+    text-decoration: none;
+
+    transition: 0.2s;
+  }
+  .nav-style .icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav-style.responsive > .item {
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  nav {
+    height: auto;
+  }
+  .nav-style > .item {
+    display: none;
+  }
+
+}
+
+/* welcome section */
+
+.welcome-section {
+  max-width: 100%;
+  height: auto;
+
+  display: flex;
+  align-items: start;
+}
+
+@media only screen and (max-width: 1200px) {
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.welcome-section-text {
+  flex: 1 1 0%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  padding: 0px 10px 0px 0px;
+}
+.welcome-section-text > h2 {
+  text-align: left;
+}
+.welcome-section-text > p {
+  line-height: 25px;
+}
+
+.welcome-section-img {
+  background-color: blue;
+  flex: 1 1 0%;
+}
+
+.welcome-section-img > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Objetive section */
+
+.objetive-section {
+  max-width: 100%;
+  height: auto;
+
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.objetive-section > h5,
+p {
+  line-height: 25px;
+}
+.objetive-section > article > ul {
+  margin: 10px 0px 0 40px;
+}
+
+/* Solid border */
+hr.solid {
+  margin: 20px;
+  border-top: 1px solid rgb(85, 85, 85);
+}
+
+/* Units section */
+.units-section {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.units-section > h2 {
+  text-align: center;
+}
+.units-instruction {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.units {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.units a {
+  flex: 1;
+  margin: 5px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .units a {
+    border-radius: 0px;
+  }
+}
+.units a > img {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.units a > img:hover {
+  opacity: 0.8;
+  scale: 1.05;
+}
+
+/* footer */
+footer {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}

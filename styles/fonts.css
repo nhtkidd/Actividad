@@ -1,0 +1,55 @@
+/* FONTS */
+
+.font-unity-name-style {
+  font-family: "Nunito Sans", sans-serif; /* Usando Nunito Sans como la fuente principal */
+  font-weight: 900; /* Black */
+  font-size: 26px;
+  text-align: left; /* Alineado a la izquierda */
+  color: #3c78d8; /* Color HEX */
+}
+
+.font-titles-style {
+  font-family: "Nunito Sans", sans-serif; /* Usando Nunito Sans como la fuente principal */
+  font-weight: 600; /* Semibold */
+  font-size: 22px;
+  text-align: center; /* Centrado */
+  color: #3c78d8; /* Color HEX */
+}
+
+.font-text-style {
+  font-family: "Nunito Sans", sans-serif; /* Usando Nunito Sans como la fuente principal */
+  font-weight: 400; /* Regular */
+  font-size: 18px;
+  text-align: justify; /* Justificado */
+  color: #000000; /* Color negro */
+}
+
+.font-url-video-style {
+  font-family: "Nunito Sans", sans-serif; /* Usando Nunito Sans como la fuente principal */
+  font-weight: 400;
+  font-size: 14px;
+  text-align: right;
+  color: #000000;
+}
+
+.font-important-text-style {
+  font-family: "Nunito Sans", sans-serif; /* Usando Nunito Sans como la fuente principal */
+  font-weight: 700;
+  font-size: 18px;
+  color: #0b5394;
+}
+
+.font-instruction-text-style {
+  font-family: "Nunito Sans", sans-serif; /* Usando Nunito Sans como la fuente principal */
+  font-weight: 700;
+  font-size: 18px;
+  text-align: justify;
+}
+
+.font-buttons-style {
+  font-family: "Nunito Sans", sans-serif; /* Usando Nunito Sans como la fuente principal */
+  font-weight: 600;
+  font-size: 14px;
+  text-align: center;
+  color: #3c78d8;
+}
