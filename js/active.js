@@ -1,5 +1,5 @@
 const activePage = window.location.pathname;
-console.log(activePage);
+console.log(activePage, 'EL PATH NAME');
 const navLink = document.querySelectorAll("nav a");
 navLink.forEach((link) => {
   if (link.href.includes(activePage)) {
